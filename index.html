@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="card">
+
+    <h1>🌤️ Weather App</h1>
+
+    <!-- Input -->
+    <input type="text" id="city" placeholder="Enter city name">
+    <button onclick="getWeather()">Search</button>
+
+    <!-- Loading -->
+    <div id="loading">Loading...</div>
+
+    <!-- Weather Icon -->
+    <div id="weatherIcon"></div>
+
+    <!-- Output -->
+    <h2 id="cityName"></h2>
+    <h3 id="temperature"></h3>
+    <h3 id="windspeed"></h3>
+    <h3 id="humidity"></h3>
+    <h3 id="condition"></h3>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
